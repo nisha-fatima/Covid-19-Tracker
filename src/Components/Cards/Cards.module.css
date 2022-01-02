@@ -1,0 +1,54 @@
+.container{
+    margin: 50px 0 !important;
+}
+.card{
+    margin: 20px !important;
+    width: 200px !important
+}
+.heading{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(127, 36, 170);
+}
+.confirmed{
+    border-bottom: 10px solid rgba(245, 221, 66);
+    border-top: 1px solid #eaeaea;
+    cursor: default;
+}
+.recovered{
+    border-bottom: 10px solid rgba(62, 97, 56);
+    border-top: 1px solid #f7f7fa;
+    cursor: default;
+}
+.deaths{
+    border-bottom: 10px solid rgba(250,0,0,0.7);
+    border-top: 1px solid #eaeaea;
+    cursor: default;
+}
+.active{
+    border-bottom: 10px solid rgba(55, 42, 120);
+    border-top: 1px solid #eaeaea;
+    cursor: default;
+}
+.confirmedHeading{
+    color: rgba(245, 221, 66) !important;
+    font-weight: bold !important;
+}
+.recoveredHeading{
+    color: rgba(62, 97, 56) !important;
+    font-weight: bold !important;
+}
+.deathsHeading{
+    color: rgba(250,0,0,0.7) !important;
+    font-weight: bold !important;
+}
+.activeHeading{
+    color: rgba(55, 42, 120) !important;
+    font-weight: bold !important;
+}
+.progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
